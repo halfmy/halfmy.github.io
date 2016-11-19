@@ -24,3 +24,6 @@
 .img-y:hover{
 	transform: rotateY(360deg);
 }
+.col-xs-J:hover{
+	border-color:red;
+}
