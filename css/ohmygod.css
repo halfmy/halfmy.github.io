@@ -17,3 +17,10 @@
 .img-z:hover{
 	transform: rotateX(360deg);
 }
+.img-y{
+	 transition:all 2000ms ease;
+	transform-style: preserve-3d;
+}
+.img-y:hover{
+	transform: rotateY(360deg);
+}
