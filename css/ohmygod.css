@@ -10,4 +10,10 @@
 .container {
 	margin-top: 40px;
 }
-
+.img-z{
+	 transition:all 2000ms ease;
+	transform-style: preserve-3d;
+}
+.img-z:hover{
+	transform: rotateX(360deg);
+}
