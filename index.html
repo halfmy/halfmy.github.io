@@ -12,6 +12,9 @@
 	body{background-color:#000044;background:url(img/bg.jpg) repeat-x;margin:0px;overflow:hidden;}
 	a{color:#0078ff;}
 </style>
+	<script type="text/javascript" src="js/ThreeCanvas.js"></script>
+	<script type="text/javascript" src="js/Particle3D.js"></script>
+	<script type="text/javascript" src="js/Snow.js"></script>
 
 <script>
 var _hmt = _hmt || [];
@@ -25,7 +28,8 @@ var _hmt = _hmt || [];
 
 
 </head>
-<body>
+<body onLoad="snow('test','./img/snow.png',{'frame':60,'imgscale':1})">
+	<canvas id="test" style="width:100%;height:100%"></canvas>
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-4 col-xs-J col-md-4">
