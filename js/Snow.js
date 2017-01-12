@@ -14,7 +14,7 @@
     var windowHalfY = window.innerHeight / 2;
     var particles = [];
     var particleImage = new Image();
-    particleImage.src = 'imgs/ParticleSmoke.png';
+    particleImage.src = './imgs/snow.png';
 
 
     function onDocumentMouseMove( event ) {
